@@ -1,25 +1,53 @@
+@import '../blocks/page/page.css';
+@import '../blocks/page/__header/page__header.css';
+@import '../blocks/page/__section/page__section.css';
+
 @import '../blocks/container/container.css';
 @import '../blocks/container/_fluid/container_fluid.css';
 
 @import '../blocks/header/header.css';
+@import '../blocks/header/__lang-link/header__lang-link.css';
 @import '../blocks/header/__lang-link/_active/header__lang-link_active.css';
 @import '../blocks/header/__logo-image/header__logo-image.css';
 
-.header__lang-link {
-    text-decoration: none;
-    margin-right: 18px;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 1.4;
-    color: #ffffff;
-}
+@import '../blocks/lead/lead.css';
+@import '../blocks/lead/__figure/lead__figure.css';
+@import '../blocks/lead/__figure-caption/lead__figure-caption.css';
+@import '../blocks/lead/__figure-image/lead__figure-image.css';
+@import '../blocks/lead/__subtitle/lead__subtitle.css';
+@import '../blocks/lead/__title/lead__title.css';
 
-@media screen and (max-width: 767px) {
-    .header__lang-link {
-        font-size: 18px;
-    }
-}
+@import '../blocks/intro/intro.css';
+@import '../blocks/intro/__title/intro__title.css';
+@import '../blocks/intro/__list/intro__list.css';
+@import '../blocks/intro/__list-item/intro__list-item.css';
+@import '../blocks/intro/__list-span/intro__list-span.css';
+@import '../blocks/intro/__text/intro__text.css';
 
-.header__lang-link:last-child {
-    margin-right: 0;
-}
+@import '../blocks/photo-grid/photo-grid.css';
+@import '../blocks/photo-grid/__item/photo-grid__item.css';
+
+@import '../blocks/places/__item/places__item.css';
+
+@import '../blocks/place/place.css';
+@import '../blocks/place/__title/place__title.css';
+@import '../blocks/place/__image/place__image.css';
+@import '../blocks/place/__link/place__link.css';
+@import '../blocks/place/__paragraph/place__paragraph.css';
+@import '../blocks/place/__url/place__url.css';
+@import '../blocks/place/__website/place__website.css';
+
+@import '../blocks/cover/cover.css';
+@import '../blocks/cover/__title/cover__title.css';
+@import '../blocks/cover/__subtitle/cover__subtitle.css';
+
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__link/footer__link.css';
+@import '../blocks/footer/__links/footer__links.css';
+@import '../blocks/footer/__copyright/footer__copyright.css';
+
+
+
+
+
+

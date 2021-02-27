@@ -1,4 +1,5 @@
 .place__url {
+    display: block;
     color: #aaa;
     margin-bottom: 12px;
     text-transform: uppercase;
