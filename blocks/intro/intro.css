@@ -1,0 +1,9 @@
+.intro {
+    max-width: 750px;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        max-width: unset;
+    }
+}

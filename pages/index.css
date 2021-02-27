@@ -1,0 +1,25 @@
+@import '../blocks/container/container.css';
+@import '../blocks/container/_fluid/container_fluid.css';
+
+@import '../blocks/header/header.css';
+@import '../blocks/header/__lang-link/_active/header__lang-link_active.css';
+@import '../blocks/header/__logo-image/header__logo-image.css';
+
+.header__lang-link {
+    text-decoration: none;
+    margin-right: 18px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+    }
+}
+
+.header__lang-link:last-child {
+    margin-right: 0;
+}
