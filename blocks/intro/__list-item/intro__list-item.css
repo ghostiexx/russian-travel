@@ -1,8 +1,4 @@
 .intro__list-item {
     font-size: 12px;
-    margin-bottom: 10px;
-}
-
-.intro__list-item:last-child {
-    margin-bottom: 0;
+    line-height: 1.5;
 }

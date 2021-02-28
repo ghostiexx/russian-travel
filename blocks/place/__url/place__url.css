@@ -1,6 +1,14 @@
 .place__url {
     display: block;
     color: #aaa;
+    line-height: 1.7;
     margin-bottom: 12px;
     text-transform: uppercase;
+    letter-spacing: .6px;
+}
+
+@media screen and (max-width: 1023px) {
+    .place__url {
+        line-height: 1;
+    }
 }
