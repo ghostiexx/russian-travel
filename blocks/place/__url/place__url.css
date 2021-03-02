@@ -4,9 +4,11 @@
     line-height: 1.7;
     margin-bottom: 12px;
     text-transform: uppercase;
-    letter-spacing: .6px;
+    letter-spacing: 2.4px;
     font-size: 12px;
 }
+
+/*не знал, что проценты из макета можно перевести в em. спасибо за помощь <3*/
 
 @media screen and (max-width: 1023px) {
     .place__url {
